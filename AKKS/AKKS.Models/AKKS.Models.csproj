@@ -84,15 +84,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="likeList.cs" />
-    <Compile Include="PostReply.cs" />
-    <Compile Include="Post_Models\PostCreate.cs" />
-    <Compile Include="Post_Models\PostListItem.cs" />
+    <Compile Include="Comment\CommentCreate.cs" />
+    <Compile Include="Comment\CommentDetails.cs" />
+    <Compile Include="Comment\CommentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AKKS.Data\AKKS.Data.csproj">
+      <Project>{46BDDED6-A551-43D5-93CA-EFAFC0F572B8}</Project>
+      <Name>AKKS.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
