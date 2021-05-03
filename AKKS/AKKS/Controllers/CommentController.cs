@@ -45,7 +45,7 @@ namespace AKKS.Controllers
 
                               ctx
                               .Comments
-                              .Single(e => e.CommentId == inputId);
+                              .Single(e => e.PostId == inputId);
                         return
                               new CommentDetails
                               {

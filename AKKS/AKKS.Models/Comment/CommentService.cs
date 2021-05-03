@@ -40,7 +40,7 @@ namespace AKKS.Models
 
                               ctx
                               .Comments
-                              .Single(e => e.CommentId == postId);
+                              .Single(e => e.PostId == postId);
                         return
                         new CommentDetails
                         {
