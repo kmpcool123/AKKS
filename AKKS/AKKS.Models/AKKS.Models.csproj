@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="likeList.cs" />
+    <Compile Include="PostReply.cs" />
     <Compile Include="Post_Models\PostCreate.cs" />
     <Compile Include="Post_Models\PostListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
